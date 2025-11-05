@@ -1,0 +1,19 @@
+
+{
+  "name": "sin-nombre-blog",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=dist/index.js --loader:.tsx=jsx --format=esm --minify --sourcemap"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}
